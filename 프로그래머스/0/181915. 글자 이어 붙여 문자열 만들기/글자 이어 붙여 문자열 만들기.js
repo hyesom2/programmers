@@ -3,7 +3,6 @@ function solution(my_string, index_list) {
     
     for(let i = 0; i < index_list.length; i++) {
         let index = index_list[i];
-        console.log(index);
         answer.push(my_string[index]);
     }
     
